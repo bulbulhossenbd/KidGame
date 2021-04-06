@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:backgroundTint="@android:color/white"
+        android:id="@+id/btnBefore"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/before2"
+        app:layout_constraintEnd_toStartOf="@+id/btnAfter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:id="@+id/btnAfter"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/after_1"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnBefore"
+       app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/btnShowResult"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/show_history"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBefore" />
+
+    <TextView
+        android:id="@+id/tvBefore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Before"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnBefore"
+        app:layout_constraintStart_toStartOf="@+id/btnBefore"
+        app:layout_constraintTop_toBottomOf="@+id/btnBefore" />
+
+    <TextView
+        android:id="@+id/tvAfter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnAfter"
+        app:layout_constraintStart_toStartOf="@+id/btnAfter"
+        app:layout_constraintTop_toBottomOf="@+id/btnAfter" />
+
+    <TextView
+        android:id="@+id/tvShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Result"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnShowResult"
+        app:layout_constraintStart_toStartOf="@+id/btnShowResult"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowResult" />
+</androidx.constraintlayout.widget.ConstraintLayout>
