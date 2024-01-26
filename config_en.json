@@ -353,7 +353,7 @@
 "marginBottom":0.0,
 "marginLeft":0.0,
 "marginRight":0.0,
-"bottomBarStyle":"static",
+"bottomBarStyle":"slideEffect",
 "alwaysShowTabBar":false,
 "TabBarIndicator":{
 "height":0.0,
@@ -382,8 +382,8 @@
 "notchMargin":4.0,
 "isCoverMode":false}}
 },
-"TabBarConfig":[
-    "bottomBarStyle" : "opacityEffect",
+"TabBar":[
+
 {
 "key":"whzyenstxq",
 "layout":"home",
