@@ -382,6 +382,9 @@
 "notchMargin":4.0,
 "isCoverMode":false}}
 },
+"TabBarConfig": {
+    "bottomBarStyle" : "opacityEffect",
+  },
 "TabBar":[
 {
 "key":"whzyenstxq",
