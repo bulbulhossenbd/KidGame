@@ -353,7 +353,7 @@
 "marginBottom":0.0,
 "marginLeft":0.0,
 "marginRight":0.0,
-"bottomBarStyle":"slideEffect",
+"bottomBarStyle":"opacityEffect",
 "alwaysShowTabBar":false,
 "TabBarIndicator":{
 "height":0.0,
